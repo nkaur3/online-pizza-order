@@ -1,0 +1,117 @@
+
+div.tab {
+    overflow: hidden;
+    
+    background-color: black;
+}
+
+
+div.tab button {
+    background-color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border: 1px solid #323232;
+}
+
+
+div.tab button:hover {
+    background-color: #E24425;
+}
+
+
+div.tab button.active {
+    background-color: #E24425;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #323232;
+   
+}
+.admin-form
+{
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+
+}
+.admin-form
+{
+    
+    margin: 10px;
+
+}
+.admin-form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+.admin-btn {
+    background: #E24425;
+    color: #FFF;
+    font-size: 0.7em;
+    padding: 0.7em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: block;
+    
+}
+.admin-btn:hover, .login-right input[type="submit"]:hover{
+    background:white;
+    text-decoration:none;
+    color:black;
+}
+.admin-form .error
+{
+    font-size:15px;
+    color: #E24425;
+    padding-bottom: 1%;
+    margin-bottom: 1.8em;
+    display: block;
+    
+}
+.admin-form input[type=file]
+{
+     margin-bottom: 1.8em;
+}
+
+.admin-form select
+{
+     color: black;
+     margin-bottom: 1.8em;
+}
+.admin-form option
+{
+     margin-bottom: 1.8em;
+}
+.admin-list
+{
+    
+    display: none;
+   
+}
+.admin-list button
+{
+    background: #E24425;
+    color: #FFF;
+    font-size: 0.7em;
+    padding: 0.7em 1.2em;
+    margin-left: 20%;
+    margin-bottom: 1.2em;
+   
+}
